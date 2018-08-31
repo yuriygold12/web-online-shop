@@ -1,0 +1,45 @@
+.container {
+    padding: 150px;
+    background-color: white;
+    width: 25%;
+    height: 700px;
+    margin: 0 auto;
+    text-align: left;
+    border: #4CAF50;
+}
+
+body {
+    background-color: mediumvioletred;
+}
+
+h6 {
+    text-align: right;
+    color: green;
+    border-color: mediumvioletred;
+}
+
+h4 {
+    text-align: center;
+    color: saddlebrown;
+    border-style: solid;
+}
+
+h5 {
+    text-align: left;
+    color: green;
+    border-color: green;
+}
+
+button {
+    border-width: 3px;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+}
+
+.yura {
+    text-align: right;
+    background-color: burlywood;
+}

@@ -1,0 +1,98 @@
+
+body {
+    background-color: #63738a;
+    margin: 0px;
+}
+
+.container {
+    background-color: #f2f3f7;
+    width: 400px;
+    height: 500px;
+    margin: 40px auto;
+    border-bottom: 40px;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+
+.reg-header {
+    padding: 20px 0px;
+    width: 100%;
+    /*height: 20%;*/
+    /*display: inline-block;*/
+
+}
+
+.header-line {
+    display: inline-block;
+    width: 32%;
+}
+
+.reg-text {
+    color: #636363;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.heder-line hr {
+    border: 0px;
+    height: 2px;
+    background-color: #d4d4d4;
+}
+
+.reg-header h1 {
+    color: #636363;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    margin: 0px;
+}
+
+.reg-body {
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.inline-input {
+    display: inline-block;
+    padding: 8px 13px;
+    width: 38%;
+}
+
+.float-right {
+    float: right;
+}
+
+.basic-input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.reg-footer {
+    width: 83%;
+    height: 20%;
+    margin-left: 39px;
+}
+
+.inline-input1 {
+    margin: 0;
+    display: inline-block;
+}
+
+.sumbitRegitaction {
+    margin-top: 20px;
+    background-color: #4FA74F;
+    width: 97%;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+}
+
+.text1 {
+    width: 225px;
+    color: white;
+    margin-left: 44%;
+}

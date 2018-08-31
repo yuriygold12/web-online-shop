@@ -1,0 +1,222 @@
+2018-08-14 13:28:33 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-14 13:28:33 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-14 13:28:33 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-14 13:28:43 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-14 13:29:11 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-14 13:29:11 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-14 13:29:11 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-14 13:29:12 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-14 13:29:15 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-14 13:29:15 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - Could not create connection to database server.
+2018-08-14 13:33:12 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-14 13:33:12 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-14 13:33:12 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-14 13:33:12 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-14 13:33:18 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-14 13:33:18 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - Could not create connection to database server.
+2018-08-14 13:34:06 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-14 13:34:06 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-14 13:34:06 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-14 13:34:06 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-14 13:35:22 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-14 13:35:22 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - Communications link failure
+
+The last packet successfully received from the server was 12 350 milliseconds ago.  The last packet sent successfully to the server was 12 017 milliseconds ago.
+2018-08-14 13:46:04 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-14 13:46:04 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-14 13:46:04 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-14 13:46:04 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-14 13:46:08 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-14 13:46:08 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - Could not create connection to database server.
+
+
+2018-08-14 13:47:33 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-14 13:47:33 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-14 13:47:33 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-14 13:47:33 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-14 15:32:34 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-14 15:32:34 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-14 15:32:34 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-14 15:32:34 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-14 15:32:37 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-14 15:32:37 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - The server time zone value 'RTZ 2 (çèìà)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2018-08-14 15:33:14 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-14 15:33:14 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-14 15:33:14 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-14 15:33:14 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-14 15:33:17 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-14 15:33:17 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - The server time zone value 'RTZ 2 (çèìà)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2018-08-14 16:09:58 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-14 16:09:58 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-14 16:09:58 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-14 16:09:58 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-14 16:09:59 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-14 16:09:59 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - The server time zone value 'RTZ 2 (çèìà)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2018-08-14 16:10:38 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-14 16:10:38 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-14 16:10:38 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-14 16:10:38 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-14 16:10:40 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-14 16:10:40 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - The server time zone value 'RTZ 2 (çèìà)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2018-08-14 16:11:20 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-14 16:11:20 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-14 16:11:20 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-14 16:11:20 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-14 16:11:22 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-14 16:11:22 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - The server time zone value 'RTZ 2 (çèìà)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2018-08-14 16:55:16 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-14 16:55:16 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-14 16:55:16 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-14 16:55:16 MySqlDaoFactory.java ERROR MySqlDaoFactory:80 - Problem with driver registration 
+2018-08-14 16:55:16 MySqlDaoFactory.java ERROR MySqlDaoFactory:81 - [Ljava.lang.StackTraceElement;@2de8284b
+2018-08-14 16:55:16 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-14 16:55:20 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-14 16:55:20 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - Could not create connection to database server.
+2018-08-14 16:55:59 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-14 16:55:59 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-14 16:55:59 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-14 16:56:00 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-14 16:56:02 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-14 16:56:02 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - Could not create connection to database server.
+
+
+
+
+
+
+
+2018-08-14 16:56:16 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-14 16:56:16 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-14 16:56:16 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-14 16:56:16 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-14 16:56:20 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-14 16:56:20 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - Could not create connection to database server.
+2018-08-14 16:57:34 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-14 16:57:34 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-14 16:57:34 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-14 16:57:34 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-14 16:57:37 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-14 16:57:37 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - Could not create connection to database server.
+
+
+
+
+
+2018-08-14 16:57:47 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-14 16:57:47 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-14 16:57:47 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-14 16:57:47 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-14 16:57:49 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-14 16:57:49 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - Could not create connection to database server.
+2018-08-14 16:58:49 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-14 16:58:49 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-14 16:58:49 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-14 16:58:49 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-14 16:58:52 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-14 16:58:52 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - The server time zone value 'RTZ 2 (çèìà)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2018-08-14 16:59:41 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-14 16:59:41 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-14 16:59:41 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-14 16:59:41 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-14 16:59:43 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-14 16:59:43 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - The server time zone value 'RTZ 2 (çèìà)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2018-08-19 23:16:28 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-19 23:16:28 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-19 23:16:28 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-19 23:16:28 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-19 23:16:32 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-19 23:16:32 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2018-08-19 23:57:13 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-19 23:57:13 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-19 23:57:13 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-19 23:57:14 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-19 23:57:17 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-19 23:57:17 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2018-08-19 23:57:34 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-19 23:57:34 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-19 23:57:34 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-19 23:57:34 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-19 23:57:38 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-19 23:57:38 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2018-08-20 00:18:55 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-20 00:18:55 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-20 00:18:55 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-20 00:18:55 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-20 00:18:58 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-20 00:18:58 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2018-08-20 00:26:06 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-20 00:26:07 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-20 00:26:07 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-20 00:26:07 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-20 00:26:10 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-20 00:26:10 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2018-08-20 00:26:24 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-20 00:26:24 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-20 00:26:24 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-20 00:26:25 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-20 00:26:28 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-20 00:26:28 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2018-08-20 00:56:53 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-20 00:56:53 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-20 00:56:53 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-20 00:56:53 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-20 00:56:56 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-20 00:56:56 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2018-08-20 00:57:14 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-20 00:57:14 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-20 00:57:14 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-20 00:57:14 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-20 00:57:17 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-20 00:57:17 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2018-08-20 00:59:23 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-20 00:59:23 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-20 00:59:23 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-20 00:59:23 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-20 00:59:27 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-20 00:59:27 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2018-08-21 11:05:46 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-21 11:05:46 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-21 11:05:46 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-21 11:05:47 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-21 11:05:49 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-21 11:05:49 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2018-08-26 19:42:10 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-26 19:42:10 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-26 19:42:10 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-26 19:42:10 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-26 19:42:14 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-26 19:42:14 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2018-08-28 23:38:45 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-28 23:38:45 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-28 23:38:45 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-28 23:38:45 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-28 23:38:47 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-28 23:38:47 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - The server time zone value 'Ôèíëÿíäèÿ (ëåòî)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2018-08-31 15:37:40 MySqlDaoFactory.java INFO  MySqlDaoFactory:66 - Getting db properties from file
+2018-08-31 15:37:40 MySqlDaoFactory.java INFO  MySqlDaoFactory:72 - Loading db properties done
+2018-08-31 15:37:40 MySqlDaoFactory.java INFO  MySqlDaoFactory:77 - Starting JDBC driver registration
+2018-08-31 15:37:40 MySqlDaoFactory.java INFO  MySqlDaoFactory:35 - Getting connection...
+2018-08-31 15:37:41 MySqlDaoFactory.java ERROR MySqlDaoFactory:39 - PROBLEM WITH CONNECTION!!!
+2018-08-31 15:37:41 MySqlDaoFactory.java ERROR MySqlDaoFactory:40 - The server time zone value 'Ôèíëÿíäèÿ (ëåòî)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.

@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.conteiner {
+    width: 80%;
+    height: 25px;
+    background-color: #4CAF50;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+
+}
+
+.nav-link {
+    margin: 0px 10px;
+    width: 150px;
+    text-align: center;
+    background-color: rebeccapurple;
+}
+
+.logo{
+    float: left;
+}
