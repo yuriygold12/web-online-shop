@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Online Shop</title>
+</head>
+
+<body class="bg-secondary">
+
+<!--Navigation menu-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Online Shop</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+        </ul>
+        <div class="form-inline my-2 my-lg-0">
+            <button class="btn btn-outline-success m-2 my-sm-0" type="button" data-toggle="modal"
+                    data-target="#sing-in">Exit
+            </button>
+        </div>
+    </div>
+</nav>
+
+<div class="container w-50 mt-3 p-3">
+    <div class="card">
+        <div class="card-header bg-light p-2">
+            <div class="display-4 text-center">USER INFO</div>
+        </div>
+
+        <div id="card-body">
+            <table class="table table-striped">
+                <tbody>
+                <tr>
+                    <td class="text-center font-weight-bold">First Name</td>
+                    <td class="text-center">" + user.getFirst_name() + "</td>
+                </tr>
+                <tr>
+                    <td class="text-center font-weight-bold">Last Name</td>
+                    <td class="text-center">" + user.getLast_name() + "</td>
+                </tr>
+                <tr>
+                    <td class="text-center font-weight-bold">Login</td>
+                    <td class="text-center">" + user.getLogin() + "</td>
+                </tr>
+                <tr>
+                    <td class="text-center font-weight-bold">Password</td>
+                    <td class="text-center">" + user.getPassword() + "</td>
+                </tr>
+                <tr>
+                    <td class="text-center font-weight-bold">Email</td>
+                    <td class="text-center">" + user.getEmail() + "</td>
+                </tr>
+                <tr>
+                    <td class="text-center font-weight-bold">Status</td>
+                    <td class="text-center">" + user.getStatus() + "</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <form action="/edit-profile" method="post">
+            <input type="hidden" name="lg" value="+user.getLogin()+">
+            <input type="hidden" name="ps" value="+user.getPassword()+">
+            <input type="hidden" name="em" value="+user.getEmail()+">
+            <input type="hidden" name="st" value="+user.getStatus()+">
+            <input type="hidden" name="fn" value="+user.getFirst_name()+">
+            <input type="hidden" name="ln" value="+user.getLast_name()+">
+            <div class="card-footer d-flex justify-content-center">
+                <button type="submit" class="btn btn-danger" name="edit">Edit</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+</html>
+

@@ -4,30 +4,22 @@ import java.time.LocalDate;
 import java.util.Objects;
 
 public class Product {
+    private String id;
     private String nameProduct;
-    private String markaProduct;
-    private LocalDate date;
-    private LocalDate end_datasecond;
-    private LocalDate end_date;
-
-    public LocalDate getEnd_datasecond() {
-        return end_datasecond;
-    }
-
-    public LocalDate getEnd_date() {
-        return end_date;
-    }
-
-    public void setEnd_datasecond(LocalDate end_datasecond) {
-
-        this.end_datasecond = end_datasecond;
-    }
-
-    public void setEnd_date(LocalDate end_date) {
-        this.end_date = end_date;
-    }
+    private String brandProduct;
+    private String priceProduct;
+    private String product_model;
+    private String product_color;
 
     public Product() {
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getNameProduct() {
@@ -38,20 +30,36 @@ public class Product {
         this.nameProduct = nameProduct;
     }
 
-    public String getMarkaProduct() {
-        return markaProduct;
+    public String getBrandProduct() {
+        return brandProduct;
     }
 
-    public void setMarkaProduct(String markaProduct) {
-        this.markaProduct = markaProduct;
+    public void setBrandProduct(String brandProduct) {
+        this.brandProduct = brandProduct;
     }
 
-    public LocalDate getDate() {
-        return this.date;
+    public String getPriceProduct() {
+        return priceProduct;
     }
 
-    public void setDate(LocalDate date) {
-        this.date = date;
+    public void setPriceProduct(String priceProduct) {
+        this.priceProduct = priceProduct;
+    }
+
+    public String getProduct_model() {
+        return product_model;
+    }
+
+    public void setProduct_model(String product_model) {
+        this.product_model = product_model;
+    }
+
+    public String getProduct_color() {
+        return product_color;
+    }
+
+    public void setProduct_color(String product_color) {
+        this.product_color = product_color;
     }
 
     @Override
@@ -59,28 +67,28 @@ public class Product {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Product product = (Product) o;
-        return Objects.equals(nameProduct, product.nameProduct) &&
-                Objects.equals(markaProduct, product.markaProduct) &&
-                Objects.equals(date, product.date) &&
-                Objects.equals(end_datasecond, product.end_datasecond) &&
-                Objects.equals(end_date, product.end_date);
+        return Objects.equals(id, product.id) &&
+                Objects.equals(nameProduct, product.nameProduct) &&
+                Objects.equals(brandProduct, product.brandProduct) &&
+                Objects.equals(priceProduct, product.priceProduct) &&
+                Objects.equals(product_model, product.product_model) &&
+                Objects.equals(product_color, product.product_color);
     }
 
     @Override
     public int hashCode() {
-
-        return Objects.hash(nameProduct, markaProduct, date, end_datasecond, end_date);
+        return Objects.hash(id, nameProduct, brandProduct, priceProduct, product_model, product_color);
     }
-
 
     @Override
     public String toString() {
         return "Product{" +
-                "nameProduct='" + nameProduct + '\'' +
-                ", markaProduct='" + markaProduct + '\'' +
-                ", date=" + date +
-                ", end_datasecond=" + end_datasecond +
-                ", end_date=" + end_date +
+                "id='" + id + '\'' +
+                ", nameProduct='" + nameProduct + '\'' +
+                ", brandProduct='" + brandProduct + '\'' +
+                ", priceProduct='" + priceProduct + '\'' +
+                ", product_model='" + product_model + '\'' +
+                ", product_color='" + product_color + '\'' +
                 '}';
     }
 }

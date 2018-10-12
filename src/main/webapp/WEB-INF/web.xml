@@ -11,7 +11,7 @@
 
     <servlet>
         <servlet-name>FirsServelet</servlet-name>
-        <servlet-class>servlets.FirstServelet</servlet-class>
+        <servlet-class>servlets.oldServlet.FirstServelet</servlet-class>
     </servlet>
 
     <servlet-mapping>

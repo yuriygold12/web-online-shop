@@ -2,7 +2,10 @@ package dao.mysql;
 
 import beans.Product;
 import beans.User;
-import dao.*;
+import dao.core.DaoCreater;
+import dao.core.DaoException;
+import dao.core.DaoFactory;
+import dao.core.DaoGenerick;
 import org.apache.log4j.Logger;
 
 
@@ -50,7 +53,7 @@ public class MySqlDaoFactory implements DaoFactory {
     @Override
     public DaoGenerick getDao(Connection connection, Class daoClass) throws DaoException {
         DaoCreater daoCreater = daos.get(daoClass);
-        if(daoCreater == null){
+        if (daoCreater == null) {
             throw new DaoException("Dao for class " + daoClass + "not found");
         }
         return daoCreater.create(connection);

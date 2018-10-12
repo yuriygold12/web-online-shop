@@ -4,23 +4,22 @@ import java.util.ArrayList;
 
 public class PhotoAlbom {
 
-    private ArrayList <byte[]> photoAlbom = new ArrayList<>();
+    private ArrayList<byte[]> photoAlbom = new ArrayList<>();
     private ArrayList<String> titles = new ArrayList<>();
 
-   public void addPhoto(byte[] photo ,String title){
-       photoAlbom.add(photo);
-       titles.add(title);
-   }
+    public void addPhoto(byte[] photo, String title) {
+        photoAlbom.add(photo);
+        titles.add(title);
+    }
 
-   public void remove(int index){
-       photoAlbom.remove(index);
-       titles.remove(index);
-   }
+    public void remove(int index) {
+        photoAlbom.remove(index);
+        titles.remove(index);
+    }
 
-   public int getPhotoAmount(){
-       return photoAlbom.size();
-   }
-
+    public int getPhotoAmount() {
+        return photoAlbom.size();
+    }
 
     public ArrayList<byte[]> getPhotoAlbom() {
         return photoAlbom;
@@ -38,8 +37,7 @@ public class PhotoAlbom {
         this.titles = titles;
     }
 
-    public static PhotoAlbom getInstanse(){
-       return new PhotoAlbom();
+    public static PhotoAlbom getInstanse() {
+        return new PhotoAlbom();
     }
-
 }
