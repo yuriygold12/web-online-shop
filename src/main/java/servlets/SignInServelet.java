@@ -9,6 +9,7 @@ import dao.mysql.MySqlDaoFactory;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -26,6 +27,9 @@ public class SignInServelet extends HttpServlet {
         if (user != null) {
             req.setAttribute("currentUser", user);
             page = "/user-page";
+            Cookie cookie = new Cookie("user-login", user.getLogin());
+            cookie.setMaxAge(30);
+            resp.addCookie(cookie);
         } else {
             page = "failed-registration.html";
         }
