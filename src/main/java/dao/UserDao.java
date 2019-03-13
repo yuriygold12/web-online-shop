@@ -1,4 +1,4 @@
-package dao.mysql;
+package dao;
 
 import beans.User;
 import beans.UserState;
@@ -19,32 +19,32 @@ public class UserDao extends AbstractDao<User, String> {
 
     @Override
     protected String getInsertQuery() {
-        String insertQuery = "INSERT INTO `user` (`login`, `password`,`first_name`,`second_name`,`email` ,`status`) VALUES" +
+        String insertQuery = "INSERT INTO `users` (`login`, `password`,`firstName`,`lastName`,`email` ,`status`) VALUES" +
                 "(?, ?, ? ,?,? ,? )";
         return insertQuery;
     }
 
     @Override
     protected String getSelectQuery() {
-        String selectLastRecord = "SELECT * FROM `user` WHERE login = ?";
+        String selectLastRecord = "SELECT * FROM `users` WHERE login = ?";
         return selectLastRecord;
     }
 
     @Override
     protected String getDeleteQuery() {
-        String qerySelect = "DELETE FROM `user` WHERE `login` = ?";
+        String qerySelect = "DELETE FROM `users` WHERE `login` = ?";
         return qerySelect;
     }
 
     @Override
     protected String getUpdateQuery() {
-        String queryUpdate = "UPDATE `user` SET  password = ? , first_name=? ,second_name=? , email = ? ,status=?  WHERE  login  = ?";
+        String queryUpdate = "UPDATE `users` SET  password = ? , firstName=? ,LastName=? , email = ? ,status=?  WHERE  login  = ?";
         return queryUpdate;
     }
 
     @Override
     protected String getSelectAll() {
-        String allQery = "SELECT * From `user`";
+        String allQery = "SELECT * From `users`";
         return allQery;
     }
 
@@ -63,7 +63,7 @@ public class UserDao extends AbstractDao<User, String> {
     }
 
     @Override
-    protected void setSelectStateament(PreparedStatement preparedStatement, User object) throws DaoException {
+    protected void setSelectStatement(PreparedStatement preparedStatement, User object) throws DaoException {
         try {
             preparedStatement.setString(1, object.getLogin());
         } catch (SQLException e) {
@@ -90,7 +90,7 @@ public class UserDao extends AbstractDao<User, String> {
     }
 
     @Override
-    protected void setUpadateStatement(PreparedStatement preparedStatement, User object) throws DaoException {
+    protected void setUpdateStatement(PreparedStatement preparedStatement, User object) throws DaoException {
         try {
             preparedStatement.setString(1, object.getPassword());
             preparedStatement.setString(2, object.getFirst_name());

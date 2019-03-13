@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 @WebServlet(name = "EditPageServlet", urlPatterns = {"/edit-profile"})
-public class EditPageServelet extends HttpServlet {
+public class EditPageServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         doPost(req, resp);
@@ -73,9 +73,11 @@ public class EditPageServelet extends HttpServlet {
                 "            </li>\n" +
                 "        </ul>\n" +
                 "        <div class=\"form-inline my-2 my-lg-0\">\n" +
-                "            <button class=\"btn btn-outline-success m-2 my-sm-0\" type=\"button\" data-toggle=\"modal\"\n" +
-                "                    data-target=\"#sing-in\">Exit\n" +
+                "        <form action=\"/exit-servlet\" method=\"post\">\n\" +" +
+                "            <button class=\"btn btn-outline-success m-2 my-sm-0\" type=\"submit\" data-toggle=\"modal\"\n" +
+                "                   data-target=\"#sing-in\">Exit\n" +
                 "            </button>\n" +
+                "        </form>\n" +
                 "        </div>\n" +
                 "    </div>\n" +
                 "</nav>");

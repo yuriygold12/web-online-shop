@@ -5,7 +5,7 @@ import beans.UserState;
 import dao.core.DaoException;
 import dao.core.DaoFactory;
 import dao.core.DaoGenerick;
-import dao.mysql.MySqlDaoFactory;
+import dao.mysqlDaoFactory.MySqlDaoFactory;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

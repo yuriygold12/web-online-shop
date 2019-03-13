@@ -2,6 +2,6 @@ package dao.core;
 
 import java.sql.Connection;
 
-public interface DaoCreater {
+public interface DaoCreator {
     DaoGenerick create(Connection connection);
 }

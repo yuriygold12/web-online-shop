@@ -9,24 +9,121 @@
          version="3.1">
     <display-name>Archetype Created Web Application</display-name>
 
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+
+    <!--////////////////////////////////////////////////////////////////////////////-->
+    <!--Jsp - Config-->
+    <!--//////////////////////////////////////////////////////////////////////////-->
+
+
     <servlet>
-        <servlet-name>FirsServelet</servlet-name>
-        <servlet-class>servlets.oldServlet.FirstServelet</servlet-class>
+        <servlet-name>config-test</servlet-name>
+        <jsp-file>/jsp/jspScopes/config.jsp</jsp-file>
+        <init-param>
+            <param-name>title</param-name>
+            <param-value>Testing JSP + Servlet Config</param-value>
+        </init-param>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>FirsServelet</servlet-name>
-        <url-pattern>/fs</url-pattern>
+        <servlet-name>config-test</servlet-name>
+        <url-pattern>/ct</url-pattern>
     </servlet-mapping>
 
+
+    <servlet>
+        <servlet-name>main-page-servlet</servlet-name>
+        <jsp-file>/jsp/game-jsp/main-page-game.jsp</jsp-file>
+        <init-param>
+            <param-name>title</param-name>
+            <param-value>Main-Page-Game</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>main-page-servlet</servlet-name>
+        <url-pattern>/mp</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>game-jsp</servlet-name>
+        <jsp-file>/jsp/game-jsp/game-jsp.jsp</jsp-file>
+        <init-param>
+            <param-name>redirect</param-name>
+            <param-value>Game-page-Jsp</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>game-jsp</servlet-name>
+        <url-pattern>/gm</url-pattern>
+    </servlet-mapping>
+
+
+    <!--////////////////////////////////////////////////////////////////////////////-->
+    <!--Filter Servlets-->
+    <!--///////////////////////////////////////////////////////////////////////////-->
+
     <filter>
-        <filter-name>AutorizationFilter</filter-name>
-        <filter-class>filters.AutorizationFilter</filter-class>
+        <filter-name>AuthorizationFilter</filter-name>
+        <filter-class>filters.AuthorizationFilter</filter-class>
     </filter>
 
     <filter-mapping>
-        <filter-name>AutorizationFilter</filter-name>
-        <url-pattern>/*</url-pattern>
+        <filter-name>AuthorizationFilter</filter-name>
+        <url-pattern>/user-page</url-pattern>
     </filter-mapping>
+
+    <filter>
+        <filter-name>CreatingCookieFilter</filter-name>
+        <filter-class>filters.CreatingCookieFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>CreatingCookieFilter</filter-name>
+        <url-pattern>/user-page</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>CheckAuthorizationFilter</filter-name>
+        <filter-class>filters.CheckAuthorizationFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>CheckAuthorizationFilter</filter-name>
+        <url-pattern>/index.html</url-pattern>
+    </filter-mapping>
+
+
+    <!--////////////////////////////////////////////////////////////////////////////-->
+    <!--Servlets-->
+    <!--//////////////////////////////////////////////////////////////////////////-->
+
+
+    <servlet>
+        <servlet-name>ExitServlet</servlet-name>
+        <servlet-class>servlets.ExitServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ExitServlet</servlet-name>
+        <url-pattern>/exit-servlet</url-pattern>
+    </servlet-mapping>
+
+
+    <!--////////////////////////////////////////////////////////////////////////////-->
+    <!--Context-parameter-->
+    <!--//////////////////////////////////////////////////////////////////////////-->
+
+
+    <context-param>
+        <param-name>day</param-name>
+        <param-value>monday</param-value>
+    </context-param>
+
 
 </web-app>

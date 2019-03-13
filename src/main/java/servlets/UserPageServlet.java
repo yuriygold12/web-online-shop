@@ -56,11 +56,13 @@ public class UserPageServlet extends HttpServlet {
                 "                <a class=\"nav-link\" href=\"#\">Link</a>\n" +
                 "            </li>\n" +
                 "        </ul>\n" +
+                " <form action=\"/exit-servlet\" method=\"post\">\n\" +" +
                 "        <div class=\"form-inline my-2 my-lg-0\">\n" +
-                "            <button class=\"btn btn-outline-success m-2 my-sm-0\" type=\"button\" data-toggle=\"modal\"\n" +
+                "            <button class=\"btn btn-outline-success m-2 my-sm-0\" type=\"submit\" data-toggle=\"modal\"\n" +
                 "                    data-target=\"#sing-in\">Exit\n" +
                 "            </button>\n" +
                 "        </div>\n" +
+                "      </form>\n" +
                 "    </div>\n" +
                 "</nav>");
 
@@ -109,8 +111,10 @@ public class UserPageServlet extends HttpServlet {
                 "            <input type=\"hidden\" name=\"fn\" value=\"" + user.getFirst_name() + "\"> \n" +
                 "            <input type=\"hidden\" name=\"ln\" value=\"" + user.getLast_name() + "\"> \n" +
                 "            <div class=\"card-footer d-flex justify-content-center\">\n" +
-                "                <button type=\"submit\" class=\"btn btn-danger\" name=\"edit\">Edit</button>\n" +
+                "        <form action=\"/exit-servlet\" method=\"post\">\n" +
+                "                <button type=\"submit\" class=\"btn btn-danger\" name=\"/exit-servlet\">Edit</button>\n" +
                 "            </div>\n" +
+                "        </form>\n" +
                 "        </form>\n" +
                 "    </div>\n" +
                 "</div>");

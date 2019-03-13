@@ -1,8 +1,8 @@
-package dao.mysql;
+package dao.mysqlDaoFactory;
 
-import beans.Product;
 import beans.User;
-import dao.core.DaoCreater;
+import dao.UserDao;
+import dao.core.DaoCreator;
 import dao.core.DaoException;
 import dao.core.DaoFactory;
 import dao.core.DaoGenerick;
@@ -23,7 +23,7 @@ public class MySqlDaoFactory implements DaoFactory {
     private String USER;
     private String PASSWORD;
     private static final Logger log = Logger.getLogger(MySqlDaoFactory.class);
-    private Map<Class, DaoCreater> daos;
+    private Map<Class, DaoCreator> daos;
 
     public MySqlDaoFactory() throws IOException {
         loadDbProperties();
@@ -39,30 +39,20 @@ public class MySqlDaoFactory implements DaoFactory {
             connection = DriverManager.getConnection(DB, USER, PASSWORD);
             log.info("Connection done!!!");
         } catch (SQLException e) {
-            log.error("PROBLEM WITH CONNECTION!!!");
+            log.error("Problem with connection!!!");
             log.error(e.getMessage());
         }
         return connection;
     }
 
-//    @Override
-//    public DaoGenerick getUserDao(Connection connection) throws SQLException {
-//        return new UserDao(connection);
-//    }
-
     @Override
     public DaoGenerick getDao(Connection connection, Class daoClass) throws DaoException {
-        DaoCreater daoCreater = daos.get(daoClass);
+        DaoCreator daoCreater = daos.get(daoClass);
         if (daoCreater == null) {
             throw new DaoException("Dao for class " + daoClass + "not found");
         }
         return daoCreater.create(connection);
     }
-
-//    @Override
-//    public DaoGenerick getProductDao(Connection connection) throws SQLException {
-//        return new ProductDao(connection);
-//    }
 
     private void loadDbProperties() throws IOException {
         Properties properties = new Properties();
@@ -87,17 +77,10 @@ public class MySqlDaoFactory implements DaoFactory {
 
     private void loadDaos() {
         daos = new HashMap<>();
-        daos.put(User.class, new DaoCreater() {
+        daos.put(User.class, new DaoCreator() {
             @Override
             public DaoGenerick create(Connection connection) {
                 return new UserDao(connection);
-            }
-        });
-
-        daos.put(Product.class, new DaoCreater() {
-            @Override
-            public DaoGenerick create(Connection connection) {
-                return new ProductDao(connection);
             }
         });
     }
